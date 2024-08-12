@@ -1,5 +1,6 @@
 console.log('Welcome!');
-
+//General solution
+//Question 1
 const GetArray = (arr: number[]) => {
 	let newArray = arr.map((num, index) => (arr[index] = num * num));
 	return newArray.sort((a, b) => a - b);
