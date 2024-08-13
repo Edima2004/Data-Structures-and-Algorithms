@@ -20,7 +20,7 @@ const GetKthValue = (n: number, k: number) => {
 console.log(GetKthValue(4, 3));
 console.log(GetKthValue(2, 2));
 console.log(GetKthValue(1, 1));
-console.log(GetKthValue(5, 9));
+console.log(GetKthValue(5, 7));
 
 
 //Question 2 - Josephus Problem
