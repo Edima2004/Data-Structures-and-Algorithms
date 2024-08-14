@@ -44,7 +44,7 @@ const GetPowerSum = (arr:number[], power :number = 1) => {
 	});
    return Math.pow(sum,power)
 };
-
+//! Confirm the below output for each test case on udemy
 //console.log(GetPowerSum([1, 3, [3, 4,[5,6]]]));
 //console.log(GetPowerSum([1, 2, [7, [3,4], 2]]));
 console.log(GetPowerSum([1]));
