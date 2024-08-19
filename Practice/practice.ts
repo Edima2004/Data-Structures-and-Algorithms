@@ -93,3 +93,18 @@ const SolveJosephus = (n:number, k:number)=>{
 }
 
 console.log(SolveJosephus(41,2));
+
+//subsets of an array
+const GetSubset = (arr:number[])=>{
+   const output:object[] = [];
+
+   const helper = (array = arr, index:number, subsets:number[] )=>{
+      if( index === array.length){
+         output.push(subsets)
+      }
+   }
+
+
+
+}
+
