@@ -36,3 +36,7 @@ Question 1
 
 
 Question 2
+
+
+<!-- Section 25 -->
+The sum of two numbers in a given array should equal the target value with the lowest time complexity strain 

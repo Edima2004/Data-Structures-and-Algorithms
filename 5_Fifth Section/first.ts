@@ -16,6 +16,7 @@ const GetSubsets = (arr: number[]) => {
       subsets.pop();
 	};
 	helper(arr, 0, []);
+   //const resultArr = [...new Set(output)];
    return output;
 };
 
@@ -25,7 +26,9 @@ console.log(GetSubsets([]));
 console.log(GetSubsets([1,2,1]));
 
 //Unique subsets
-
+const GetUniqueSubsets = ()=>{
+   //code pending
+}
 
 
 
